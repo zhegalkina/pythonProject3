@@ -1,10 +1,2 @@
-digit = int(input("Число n: "))
-for i in range(0, digit+1):
-    if i % 2 == 0:
-        print(i)
-
-
-digit = int(input("Число n: "))
-for i in range(0, digit+1):
-    if digit % i == 0:
-        print(i)
+new_list = [x for x in range(1,len(a)) if a[x] > a[x-1]]
+print(a(x))
