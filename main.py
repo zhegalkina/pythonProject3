@@ -1,7 +1,7 @@
 n = int(input("n: "))
 m = int(input("m: "))
 k = int(input("k: "))
-if k < n*m and k%m==0 or k%n==0:
+if k < n*m and k%n==0 or k%m==0:
     print("делится")
 else:
     print("не делится")
