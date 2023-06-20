@@ -1,7 +1,14 @@
-n = int(input("n: "))
-m = int(input("m: "))
-k = int(input("k: "))
-if k < n*m and k%n==0 or k%m==0:
-    print("делится")
-else:
-    print("не делится")
+# n = int(input("n: "))
+# m = int(input("m: "))
+# k = int(input("k: "))
+# if k < n*m and k%n==0 or k%m==0:
+#     print("делится")
+# else:
+#     print("не делится")
+
+
+# import pandas as pd
+# df = pd.DataFrame()
+# print(df.head())
+
+
