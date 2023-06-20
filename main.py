@@ -1,5 +1,7 @@
-digit = int(input("Число: "))
-if digit % 4 ==0 and digit % 100 != 0 or digit % 400 == 0:
-    print("Високосный")
+n = int(input("n: "))
+m = int(input("m: "))
+k = int(input("k: "))
+if k < n*m and k%m==0 or k%n==0:
+    print("делится")
 else:
-    print("нет")
+    print("не делится")
