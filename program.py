@@ -1,6 +1,6 @@
-from calculator.calculator_funcs import read_input, calculate
 
-x, sign, y = read_input()
-print(x, sign, y, " = ", result)
+text = input("Enter string: ")
 
-# result = calculate(x, sign, y)
+text_1 = list(text)
+text_1.sort()
+print(text_1)
